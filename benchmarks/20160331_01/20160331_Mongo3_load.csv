@@ -1,0 +1,16 @@
+C:\Work Related\Projects\MREYE\Sunil\YCSB-master new\YCSB-master>python ycsb.py load mongodb3 -P workloads/workloade -P large.dat -s > 20160331_Mongo3_load.csv,,
+[OVERALL], RunTime(ms),7747
+[OVERALL], Throughput(ops/sec),1290.822254
+[CLEANUP], Operations,1
+[CLEANUP], AverageLatency(us),2761
+[CLEANUP], MinLatency(us),2760
+[CLEANUP], MaxLatency(us),2761
+[CLEANUP], 95thPercentileLatency(us),2761
+[CLEANUP], 99thPercentileLatency(us),2761
+[INSERT], Operations,10000
+[INSERT], AverageLatency(us),638.6181
+[INSERT], MinLatency(us),198
+[INSERT], MaxLatency(us),126335
+[INSERT], 95thPercentileLatency(us),1051
+[INSERT], 99thPercentileLatency(us),1931
+[INSERT], Return=OK,10000

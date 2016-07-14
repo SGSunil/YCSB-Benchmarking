@@ -1,0 +1,67 @@
+MONGO
+
+[OVERALL], RunTime(ms), 2704.0
+[OVERALL], Throughput(ops/sec), 369.8224852071006
+[CLEANUP], Operations, 1.0
+[CLEANUP], AverageLatency(us), 7046.0
+[CLEANUP], MinLatency(us), 7044.0
+[CLEANUP], MaxLatency(us), 7047.0
+[CLEANUP], 95thPercentileLatency(us), 7047.0
+[CLEANUP], 99thPercentileLatency(us), 7047.0
+[INSERT], Operations, 1000.0
+[INSERT], AverageLatency(us), 1587.473
+[INSERT], MinLatency(us), 464.0
+[INSERT], MaxLatency(us), 133503.0
+[INSERT], 95thPercentileLatency(us), 2321.0
+[INSERT], 99thPercentileLatency(us), 6723.0
+[INSERT], Return=OK, 1000
+
+
+CASS
+load
+[OVERALL], RunTime(ms), 8673.0
+[OVERALL], Throughput(ops/sec), 115.30035743110804
+[CLEANUP], Operations, 1.0
+[CLEANUP], AverageLatency(us), 2216960.0
+[CLEANUP], MinLatency(us), 2215936.0
+[CLEANUP], MaxLatency(us), 2217983.0
+[CLEANUP], 95thPercentileLatency(us), 2217983.0
+[CLEANUP], 99thPercentileLatency(us), 2217983.0
+[INSERT], Operations, 1000.0
+[INSERT], AverageLatency(us), 5168.038
+[INSERT], MinLatency(us), 2036.0
+[INSERT], MaxLatency(us), 68799.0
+[INSERT], 95thPercentileLatency(us), 7491.0
+[INSERT], 99thPercentileLatency(us), 18335.0
+[INSERT], Return=OK, 1000
+
+run
+[OVERALL], RunTime(ms), 13170.0
+[OVERALL], Throughput(ops/sec), 75.9301442672741
+[READ-FAILED], Operations, 452.0
+[READ-FAILED], AverageLatency(us), 5904.0685840707965
+[READ-FAILED], MinLatency(us), 1482.0
+[READ-FAILED], MaxLatency(us), 115263.0
+[READ-FAILED], 95thPercentileLatency(us), 17791.0
+[READ-FAILED], 99thPercentileLatency(us), 46303.0
+[CLEANUP], Operations, 10.0
+[CLEANUP], AverageLatency(us), 222313.8
+[CLEANUP], MinLatency(us), 1.0
+[CLEANUP], MaxLatency(us), 2224127.0
+[CLEANUP], 95thPercentileLatency(us), 2224127.0
+[CLEANUP], 99thPercentileLatency(us), 2224127.0
+[READ], Operations, 63.0
+[READ], AverageLatency(us), 10225.952380952382
+[READ], MinLatency(us), 2324.0
+[READ], MaxLatency(us), 121023.0
+[READ], 95thPercentileLatency(us), 47359.0
+[READ], 99thPercentileLatency(us), 95359.0
+[READ], Return=OK, 63
+[READ], Return=NOT_FOUND, 452
+[UPDATE], Operations, 485.0
+[UPDATE], AverageLatency(us), 10902.61030927835
+[UPDATE], MinLatency(us), 2376.0
+[UPDATE], MaxLatency(us), 135167.0
+[UPDATE], 95thPercentileLatency(us), 35327.0
+[UPDATE], 99thPercentileLatency(us), 103743.0
+[UPDATE], Return=OK, 485

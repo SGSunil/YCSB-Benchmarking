@@ -1,0 +1,23 @@
+C:\Work Related\Projects\MREYE\Sunil\YCSB-master new\YCSB-master>python ycsb.py run cassandra3-cql -P  workloads/workloade -P large.dat -threads 10 -target 10000 -s >20160331_Cass3_Run.csv,,
+[OVERALL], RunTime(ms),6382
+[OVERALL], Throughput(ops/sec),156.6906926
+[SCAN], Operations,956
+[SCAN], AverageLatency(us),26883.66213
+[SCAN], MinLatency(us),2668
+[SCAN], MaxLatency(us),616959
+[SCAN], 95thPercentileLatency(us),102847
+[SCAN], 99thPercentileLatency(us),189951
+[SCAN], Return=OK,956
+[CLEANUP], Operations,10
+[CLEANUP], AverageLatency(us),222721.5
+[CLEANUP], MinLatency(us),1
+[CLEANUP], MaxLatency(us),2228223
+[CLEANUP], 95thPercentileLatency(us),2228223
+[CLEANUP], 99thPercentileLatency(us),2228223
+[INSERT], Operations,44
+[INSERT], AverageLatency(us),66481.27273
+[INSERT], MinLatency(us),9416
+[INSERT], MaxLatency(us),292863
+[INSERT], 95thPercentileLatency(us),164863
+[INSERT], 99thPercentileLatency(us),292863
+[INSERT], Return=OK,44
